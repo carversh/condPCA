@@ -23,11 +23,10 @@ echo $NAME
 conda deactivate
 source activate cnmf_env
 
-# NOT POINTING TO CORRECT PATH FILENAME JUST FILE
 
 cnmf prepare --output-dir /data/gusev/SCRNA/HRVATIN/downsampling/cNMF/cNMF_output/QC --name $NAME -c /data/gusev/SCRNA/HRVATIN/$FILENAME -k $DIM --n-iter 200 --seed 14 --numgenes $NUM_GENES --total-workers $TOTAL_WORKERS 
 
-echo $NAME >> cnmf_names.par
+echo $NAME $DIM >> cnmf_names.par
 
 # create factor params
 for (( c=1; c<=$TOTAL_WORKERS; c++ ))
