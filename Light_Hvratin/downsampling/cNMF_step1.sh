@@ -32,7 +32,8 @@ echo $NAME >> cnmf_names.par
 # create factor params
 for (( c=1; c<=$TOTAL_WORKERS; c++ ))
 do
-    echo  $NAME $c >> cnmf_step2.par
+    ((NUM=c-1))
+    echo  $NAME $NUM >> cnmf_step2.par
 done
 
 rm /data/gusev/SCRNA/HRVATIN/$FILENAME
