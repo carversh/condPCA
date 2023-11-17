@@ -1,3 +1,4 @@
+#!/bin/bash
 module load anaconda/4.10.3
 source activate erisONE_python_3.10_R_4.2.0
 # module load Anaconda3/5.2.0

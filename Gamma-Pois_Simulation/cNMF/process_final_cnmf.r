@@ -1,3 +1,4 @@
+#!/usr/bin/env Rscript
 library(glue)
 library(Seurat)
 library(stringr)
