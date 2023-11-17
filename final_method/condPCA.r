@@ -1,1 +1,1 @@
-#!/usr/bin/env R
+#!/usr/bin/Rscript
