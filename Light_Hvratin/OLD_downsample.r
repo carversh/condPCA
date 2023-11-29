@@ -1,3 +1,4 @@
+#!/usr/bin/Rscript
 library(Seurat)
 library(glue)
 
@@ -132,10 +133,8 @@ if (method == "PCA"){
     
 } else if (method == "NMF"){
     print("performing standard NMF")  
-   ## unscaled_data = sub@assays$RNA@counts[var_feat,]
-   ## print(glue("dim input NMF: {dim(unscaled_data)}"))
-    sub <- NormalizeData(sub, normalization.method = "LogNormalize", scale.factor = 10000)
-    unscaled_data = sub@assays$RNA@data
+    unscaled_data = sub@assays$RNA@counts[var_feat,]
+    print(glue("dim input NMF: {dim(unscaled_data)}"))
     # remove rows or columns with all zeros
     unscaled_data = unscaled_data[rowSums(unscaled_data != 0) > 0, colSums(unscaled_data != 0) > 0]
     unscaled_data = t(round(as.matrix(unscaled_data),4) )

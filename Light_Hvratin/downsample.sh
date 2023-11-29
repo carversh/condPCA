@@ -14,7 +14,7 @@ PARAM4=`echo $param_line | awk '{ print $4 }'`
 PARAM5=`echo $param_line | awk '{ print $5 }'`
 PARAM6=`echo $param_line | awk '{ print $6 }'`
 
-Rscript downsample.r $PARAM1 $PARAM2 $PARAM3 $PARAM4 $PARAM5 $PARAM6
+Rscript FINAL_downsample.r $PARAM1 $PARAM2 $PARAM3 $PARAM4 $PARAM5 $PARAM6
 echo $PARAM1 $PARAM2 $PARAM3 $PARAM4 $PARAM5 $PARAM6
 
 # bsub -o OUT.%J.%I.out -q big -R 'rusage[mem=40000]' -W 120:00 -J cpca[51-75] "bash FINAL_downsample.sh"
@@ -23,7 +23,7 @@ echo $PARAM1 $PARAM2 $PARAM3 $PARAM4 $PARAM5 $PARAM6
 
 # bsub -o OUT.%J.%I.out -q rerunnable -R 'rusage[mem=12000]' -W 48:00 -J pca[26-50] "bash FINAL_downsample.sh"
 
-# bsub -o OUT.%J.%I.out -q big -R 'rusage[mem=100000]' -W 192:00 -J nmf[76-83] "bash FINAL_downsample.sh"
+# bsub -o OUT.%J.%I.out -q big -R 'rusage[mem=110000]' -W 205:00 -J nmf[63-64] "bash FINAL_downsample.sh"
 # bsub -o OUT.%J.%I.out -q big -R 'rusage[mem=55000]' -W 120:00 -J nmf[84-93] "bash FINAL_downsample.sh"
 # bsub -o OUT.%J.%I.out -q big -R 'rusage[mem=55000]' -W 120:00 -J nmf[109-118] "bash FINAL_downsample.sh"
 # bsub -o OUT.%J.%I.out -q big -R 'rusage[mem=40000]' -W 48:00 -J nmf[94-108] "bash FINAL_downsample.sh"
