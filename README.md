@@ -4,6 +4,8 @@ condPCA is an analysis pipeline for inferring cell states within and across cell
 
 It takes a count matrix (N cells X G genes) as input and produces ...
 
+![Inline Image](https://github.com/carversh/condPCA/blob/main/images/pipeline_visual.png?raw=true)
+
 # Installation
 
 ```
