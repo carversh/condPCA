@@ -31,12 +31,11 @@ Input Data
   - metadata_path - points to the tab delimited file that is cells by covariates/features dimensional.There must be a single column with a column name "celltype" that contains the cell type labels corresponding to each barcoded cell in the count matrix.
 
 Parameters
-  - object_columns - A list that specifies column names whose column should be treated as a factor or object and not a numeric column. The method will one hot encode these columns. Celltype must be in this list. Commonly, batch is another covariate that is included in this list.
-  - n_PCs - number of PCs to output per method. Default is 200.
+  - ```object_columns = []``` - A list that specifies column names whose column should be treated as a factor or object and not a numeric column. The method will one hot encode these columns. Celltype must be in this list. Commonly, batch is another covariate that is included in this list.
+  - ```n_PCs``` - number of PCs to output per method. Default is 200.
   - random_seed - Defailt is 998999.
   - vargenes_Stand_Cond - The number of variable genes to analyze during Standard and Conditional PCA. This can be set to an integer or "all" if all genes should be considered for analyses.
   - vargenes_IterPCA - The number of variable genes to analyze during Iterative PCA. This can be set to an integer or "all" if all genes should be considered for analyses.
-  -  
   - save_image_outputs - True/False. Specifies whether to save the graphical outputs during the pipeline processing (i.e. Mean-Variance Log-Normalization Graphs, BIC Cutoff Graphs,...)
   - BIC - True/False. Specified whether to compute the Bayesian Information Criterion after each method so that the set of states has a statistical cutoff.
 ### Step 2 - log-normalize the count data
