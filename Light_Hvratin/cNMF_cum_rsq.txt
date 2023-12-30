@@ -35,7 +35,35 @@ method	r.adj	dim	vargenes	Method	CT
 34	cNMF_all_cell_types	0.0988622255701069	35	20000	cNMF	All Cell Types
 35	cNMF_all_cell_types	0.125310769076888	40	20000	cNMF	All Cell Types
 36	cNMF_all_cell_types	0.226317952055749	45	20000	cNMF	All Cell Types
-927	cNMF_all_cell_types	0.070092088303939	50	3000	cNMF	All Cell Types
-928	cNMF_int_ex	0.293916998426742	50	3000	cNMF	Interneurons & Ex. Neurons
-964	cNMF_int_ex	0.410430369184124	50	20000	cNMF	Interneurons & Ex. Neurons
-965	cNMF_all_cell_types	0.232095614924405	50	20000	cNMF	All Cell Types
+37	cNMF_all_cell_types	0.070092088303939	50	3000	cNMF	All Cell Types
+38	cNMF_int_ex	0.293916998426742	50	3000	cNMF	Interneurons & Ex. Neurons
+39	cNMF_int_ex	0.410430369184124	50	20000	cNMF	Interneurons & Ex. Neurons
+40	cNMF_all_cell_types	0.232095614924405	50	20000	cNMF	All Cell Types
+41	cNMF_int_ex	0.038636518152212	2	3000	cNMF	Interneurons & Ex. Neurons
+42	cNMF_int_ex	0.0441863566509095	3	3000	cNMF	Interneurons & Ex. Neurons
+43	cNMF_int_ex	0.119193324376972	4	3000	cNMF	Interneurons & Ex. Neurons
+44	cNMF_int_ex	0.119611067403022	6	3000	cNMF	Interneurons & Ex. Neurons
+45	cNMF_int_ex	0.119220786903247	7	3000	cNMF	Interneurons & Ex. Neurons
+46	cNMF_int_ex	0.113845813847132	8	3000	cNMF	Interneurons & Ex. Neurons
+47	cNMF_int_ex	0.112874742882728	9	3000	cNMF	Interneurons & Ex. Neurons
+48	cNMF_int_ex	0.0524000007247755	2	20000	cNMF	Interneurons & Ex. Neurons
+49	cNMF_int_ex	0.0395113901782275	3	20000	cNMF	Interneurons & Ex. Neurons
+50	cNMF_int_ex	0.0760631828875626	4	20000	cNMF	Interneurons & Ex. Neurons
+51	cNMF_int_ex	0.209640378115385	6	20000	cNMF	Interneurons & Ex. Neurons
+52	cNMF_int_ex	0.221488687636564	7	20000	cNMF	Interneurons & Ex. Neurons
+53	cNMF_int_ex	0.226771891642138	8	20000	cNMF	Interneurons & Ex. Neurons
+54	cNMF_int_ex	0.228097171987696	9	20000	cNMF	Interneurons & Ex. Neurons
+55	cNMF_all_cell_types	0.00438460974198718	2	3000	cNMF	All Cell Types
+56	cNMF_all_cell_types	0.00465240561239255	3	3000	cNMF	All Cell Types
+57	cNMF_all_cell_types	0.00462805310797854	4	3000	cNMF	All Cell Types
+58	cNMF_all_cell_types	0.00684723154647171	6	3000	cNMF	All Cell Types
+59	cNMF_all_cell_types	0.00672068195935371	7	3000	cNMF	All Cell Types
+60	cNMF_all_cell_types	0.00858247335163487	8	3000	cNMF	All Cell Types
+61	cNMF_all_cell_types	0.00848200279881928	9	3000	cNMF	All Cell Types
+62	cNMF_all_cell_types	0.00541923478050799	2	20000	cNMF	All Cell Types
+63	cNMF_all_cell_types	0.00516431204621037	3	20000	cNMF	All Cell Types
+64	cNMF_all_cell_types	0.00607644935181983	4	20000	cNMF	All Cell Types
+65	cNMF_all_cell_types	0.00599695157175717	6	20000	cNMF	All Cell Types
+66	cNMF_all_cell_types	0.00599766091580212	7	20000	cNMF	All Cell Types
+67	cNMF_all_cell_types	0.00642499697534282	8	20000	cNMF	All Cell Types
+68	cNMF_all_cell_types	0.013460839070465	9	20000	cNMF	All Cell Types
