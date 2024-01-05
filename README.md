@@ -119,7 +119,7 @@ Outputs
  -```scExp.StandardPCA_IterPCA_squared_correlations``` - dataframe containing each state from StandardPCA and a row and the maximum correlation with a certain run of IterPCA (columns are labeled by IterPCA run on that given cell type). Two additional columns are included called "CT_involved", which tells you which cell types are involved in the state, and "Global_vs_CT", which tell you whether the state is global or cell type specific.
  - ```scExp.CondPCA_IterPCA_squared_correlations``` - dataframe containing each state from CondPCA and a row and the maximum correlation with a certain run of IterPCA (columns are labeled by IterPCA run on that given cell type). Two additional columns are included called "CT_involved", which tells you which cell types are involved in the state, and "Global_vs_CT", which tell you whether the state is global or cell type specific.
 
- If ```save_image_outputs = True```:
+ If ```save_image_outputs == True```:
    - example
 
 # Image Outputs
