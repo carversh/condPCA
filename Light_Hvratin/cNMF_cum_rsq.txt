@@ -67,3 +67,8 @@ method	r.adj	dim	vargenes	Method	CT
 66	cNMF_all_cell_types	0.00599766091580212	7	20000	cNMF	All Cell Types
 67	cNMF_all_cell_types	0.00642499697534282	8	20000	cNMF	All Cell Types
 68	cNMF_all_cell_types	0.013460839070465	9	20000	cNMF	All Cell Types
+69	NMF_int_ex all	0.0219165680264718	2	3000	NMF	Interneurons & Ex. Neurons
+70	NMF_int_ex all	0.0235133172911698	3	3000	NMF	Interneurons & Ex. Neurons
+71	NMF_int_ex all	0.0639710218878466	4	3000	NMF	Interneurons & Ex. Neurons
+72	NMF_int_ex all	0.169761759477293	5	3000	NMF	Interneurons & Ex. Neurons
+73	NMF_int_ex all	0.230642063518497	6	3000	NMF	Interneurons & Ex. Neurons
